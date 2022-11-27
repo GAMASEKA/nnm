@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?w=1380&t=st=1669492326~exp=1669492926~hmac=fe98745172e38bc83d8a226f8116e270b03bd2fef8be66a76af11eac46797819);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Сomic Sans MS";
+    }
+    .maintitle {
+    height: 50vh;
+    width: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ADFF2F;
+    background: #000;
+    background-image: url(https://media.tenor.com/fewqCF0oVhwAAAAC/hydra-red-eyes.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,1), 10px 5px 5px red;
+    }
+    h1 {
+    text-align: left;
+    }
+    h1, h2, h3 {
+    margin: 0;
+    font-style: italic;
+    padding-left: 4vh;
+    padding-top: 6vh;
+    font-size: 8vh;
+    }
+    .button {
+    display: inline-block;
+    background: #ADFF2F;
+    color: #000;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    line-height: 1;
+    font-weight: 4vh;
+    font-size: 2vh;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    .button:hover {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        background: #56722c;
+    }
+    .button:active {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        background: #f50303;
+    }
+    @media only screen and (max-width: 576px) {
+        .maintitle {
+            padding-left: 0;
+            margin-left: 0;           
+            background-size: 100%;
+            max-width: 75%;
+            max-height: 23%;
+        }
+        h1, h2, h3 { 
+            padding-top: 40%;
+            padding-left: 1vh;
+            display: inline-block;          
+            max-width: 50%;
+            max-height: 5vh;
+            font-size: 2vh;
+            padding: auto;
+        }
+        h3 {
+            margin-bottom: 1vh;
+        }
+        .button {
+            margin-left: 1vh;
+            max-width: 100%;
+            font-size: 1.5vh;
+        }
+    }
